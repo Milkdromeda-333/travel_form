@@ -1,0 +1,56 @@
+:root {
+    --dark-green: #283618;
+    /* background  */
+    --orange: #DDA15E;
+    /* form background*/
+    --cream: #FEFAE0;
+    --light-green: #606C38;
+    --dark-orange: #BC6C25;
+    --font: 'Montserrat', sans-serif;
+}
+
+body {
+    color: var(--cream);
+    background-color: var(--dark-green);
+    font-size: 23px;
+    font-family: var(--font);
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+main span {
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: var(--orange);
+    padding: 80px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: var(--light-green);
+    color: var(--cream);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--font);
+}
+
+button:hover {
+    border: 3px solid var(--cream)
+}
