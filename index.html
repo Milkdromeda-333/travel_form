@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline travel form</title>
+</head>
+
+<body>
+    <main>
+        <h1>Welcome to Happy Airline!</h1>
+        <span>Where you are welcomed at home</span>
+        <form name="myForm">
+            First Name:
+            <input name="firstName" required> <br>
+            Last Name:
+            <input type="text" name="lastName" required><br>
+            Age:
+            <input type="number" name="age" min="18" placeholder="18"><br>
+
+            Gender:
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Other">Other <br>
+
+            Destination:
+            <select name="destination" id="destination">
+                <option value="Kentucky">Kentucky</option>
+                <option value="Washington">Washington</option>
+                <option value="Texas">Texas</option>
+            </select> <br>
+            Dietary Restrictions:
+            <input type="checkbox" name="diet" value="vegan">Vegan
+            <input type="checkbox" name="diet" value="Meat">Meat-only
+            <input type="checkbox" name="diet" value="no-peanuts">No-peanuts <br>
+            <button style="width: 120px; height: 30px; margin-top: 20px;">Submit</button>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
